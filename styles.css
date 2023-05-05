@@ -868,7 +868,7 @@ svg text {
     background: black;
     pointer-events: all;
     transform: translate(var(--x), var(--y)) rotate(var(--rot));
-    transition: transform .8s cubic-bezier(0, 0.02, 0, 1);
+    transition: transform .5s ease-in-out;
 }
 
 .carousel-box {
