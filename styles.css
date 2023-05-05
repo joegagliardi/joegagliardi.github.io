@@ -451,7 +451,7 @@ svg text {
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:425px) {
     svg {
         transform: scale(2);
     }
