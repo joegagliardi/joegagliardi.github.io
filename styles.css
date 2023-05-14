@@ -167,6 +167,22 @@ h3 {
     z-index: 1003;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform .75s ease-in-out;
+}
+
+.slide-up {
+    transform: translateY(-168px);
+}
+
+.slide-down {
+    transform: translateY(0);
+}
+
 .menu-musician {
     max-width: 189px;
 }
