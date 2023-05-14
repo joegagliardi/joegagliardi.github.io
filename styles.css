@@ -959,7 +959,7 @@ svg text {
 
 .landscape-section {
     height: 85vh;
-    background-image: url(/Assets/knight_wide_revised.jpg);
+    background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776392/Lore/knight_wide_revised_low_jhuyjo.jpg);
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -1240,7 +1240,7 @@ svg text {
 }
 
 .about-us-section {
-    background-image: url(/Assets/thecuriousinn.png);
+    background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776391/Lore/thecuriousinn-min_jkvfck.png);
     background-size: cover;
     background-position: center;
     text-align: center;
