@@ -312,7 +312,7 @@ h3 {
 .layer7 {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: auto;
     object-fit: cover;
     z-index: -1;
 }
