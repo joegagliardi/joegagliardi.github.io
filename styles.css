@@ -387,62 +387,62 @@ svg text {
 }
 
 #letter1 {
-    stroke-dasharray: 651px;
-    stroke-dashoffset: 651px;
+    stroke-dasharray: 701px;
+    stroke-dashoffset: 701px;
     animation: line-anim 2s ease 1s forwards;
 }
 
 #letter2 {
-    stroke-dasharray: 368px;
-    stroke-dashoffset: 368px;
+    stroke-dasharray: 418px;
+    stroke-dashoffset: 418px;
     animation: line-anim 2s ease 1.25s forwards;
 }
 
 #letter3 {
-    stroke-dasharray: 344px;
-    stroke-dashoffset: 344px;
+    stroke-dasharray: 444px;
+    stroke-dashoffset: 444px;
     animation: line-anim 2s ease 1.5s forwards;
 }
 
 #letter4 {
-    stroke-dasharray: 469px;
-    stroke-dashoffset: 469px;
+    stroke-dasharray: 569px;
+    stroke-dashoffset: 569px;
     animation: line-anim 2s ease 1.75s forwards;
 }
 
 #letter5 {
-    stroke-dasharray: 601px;
-    stroke-dashoffset: 601px;
+    stroke-dasharray: 701px;
+    stroke-dashoffset: 701px;
     animation: line-anim 2s ease 2s forwards;
 }
 
 #letter6 {
-    stroke-dasharray: 323px;
-    stroke-dashoffset: 323px;
+    stroke-dasharray: 423px;
+    stroke-dashoffset: 423px;
     animation: line-anim 2s ease 2.25s forwards;
 }
 
 #letter7 {
-    stroke-dasharray: 423px;
-    stroke-dashoffset: 423px;
+    stroke-dasharray: 523px;
+    stroke-dashoffset: 523px;
     animation: line-anim 2s ease 2.5s forwards;
 }
 
 #letter8 {
-    stroke-dasharray: 216px;
-    stroke-dashoffset: 216px;
+    stroke-dasharray: 316px;
+    stroke-dashoffset: 316px;
     animation: line-anim 2s ease 2.75s forwards;
 }
 
 #letter9 {
-    stroke-dasharray: 490px;
-    stroke-dashoffset: 490px;
+    stroke-dasharray: 590px;
+    stroke-dashoffset: 590px;
     animation: line-anim 2s ease 3s forwards;
 }
 
 #letter10 {
-    stroke-dasharray: 389px;
-    stroke-dashoffset: 389px;
+    stroke-dasharray: 489px;
+    stroke-dashoffset: 489px;
     animation: line-anim 2s ease 3.25s forwards;
 }
 
