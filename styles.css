@@ -387,14 +387,14 @@ svg text {
 }
 
 #letter1 {
-    stroke-dasharray: 601px;
-    stroke-dashoffset: 601px;
+    stroke-dasharray: 651px;
+    stroke-dashoffset: 651px;
     animation: line-anim 2s ease 1s forwards;
 }
 
 #letter2 {
-    stroke-dasharray: 318px;
-    stroke-dashoffset: 318px;
+    stroke-dasharray: 368px;
+    stroke-dashoffset: 368px;
     animation: line-anim 2s ease 1.25s forwards;
 }
 
@@ -1119,7 +1119,7 @@ svg text {
 .testimonial-section {
     height: 85vh;
     position: relative;
-    background-image: url(/Assets/Landscape2.png);
+    background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776394/Lore/Landscape2_yikjes.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
