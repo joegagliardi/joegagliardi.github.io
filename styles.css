@@ -28,7 +28,7 @@
 body {
     background-color: #FAF1E0;
     font-family: 'Texturina', 'Courier New', Courier, monospace;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -39,7 +39,7 @@ body {
     top: 0;
     width: 100%;
     transition: 1s ease;
-    background-image: url(http://www.transparenttextures.com/patterns/arches.png);
+    background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358627/Lore/arches_pcxcu3.png);
     z-index: 100;
 }
 
@@ -858,6 +858,57 @@ svg text {
     height: 100vh;
     overflow: hidden;
     pointer-events: none;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    user-select: none;
+    z-index: 20;
+}
+
+.carousel-arrow:hover {
+    transform: scale(.7);
+}
+
+.carousel-arrow-left {
+    left: calc(80% - 220px);
+    transform: rotate(270deg) scale(.5);
+    animation: moveLeftArrow 6s ease-in-out infinite;
+    /* Adjust as needed */
+}
+
+@keyframes moveLeftArrow {
+    0%,
+    100% {
+        transform: translateX(0) rotate(270deg) scale(.5);
+    }
+    50% {
+        transform: translateX(-10px) rotate(270deg) scale(.5);
+        /* Adjust the distance as needed */
+    }
+}
+
+.carousel-arrow-right {
+    left: calc(80% + 120px);
+    transform: rotate(90deg) scale(.5);
+    animation: moveRightArrow 6s ease-in-out infinite;
+    /* Adjust as needed */
+}
+
+@keyframes moveRightArrow {
+    0%,
+    100% {
+        transform: translateX(0) rotate(90deg) scale(.5);
+    }
+    50% {
+        transform: translateX(10px) rotate(90deg) scale(.5);
+        /* Adjust the distance as needed */
+    }
 }
 
 .carousel-item {
