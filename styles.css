@@ -949,6 +949,39 @@ svg text {
     opacity: var(--opacity);
 }
 
+.box-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity .7s ease-in-out;
+    pointer-events: none;
+}
+
+.carousel-box:hover .box-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.box-content {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    transform: translateY(0);
+    transition: bottom .7s ease-in-out, transform .7s ease-in-out;
+}
+
+.carousel-box:hover .box-content {
+    bottom: 0;
+    transform: translateY(-40%);
+}
+
 .carousel-box:before {
     content: '';
     position: absolute;
