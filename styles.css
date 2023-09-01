@@ -911,6 +911,18 @@ svg text {
     }
 }
 
+@media (max-width:1024px) {
+    .carousel-arrow-right {
+        left: calc(50% + 120px);
+    }
+    .carousel-arrow-left {
+        left: calc(50% - 220px);
+    }
+    .carousel-arrow {
+        top: 35%;
+    }
+}
+
 .carousel-item {
     --items: 8;
     --width: clamp(250px, 30vw, 300px);
