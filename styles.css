@@ -592,6 +592,76 @@ svg text {
     z-index: 11;
 }
 
+
+/* ... Existing CSS ... */
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70vw;
+    background-color: #FAF1E0;
+    z-index: 1000;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.pattern-overlay {
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358627/Lore/arches_pcxcu3.png');
+}
+
+.popup-content {
+    position: relative;
+    padding: 20px;
+}
+
+.popup img {
+    display: none;
+    max-width: 100%;
+    max-height: 60vh;
+    height: auto;
+    margin: 0 auto;
+}
+
+.popup .navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.popup .navigation button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#closePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.description p {
+    margin: 5px 0;
+}
+
 .intro-text button:hover {
     background-color: white;
     color: var(--green);
@@ -913,10 +983,10 @@ svg text {
 
 @media (max-width:1024px) {
     .carousel-arrow-right {
-        left: calc(50% + 120px);
+        left: calc(50% + 90px);
     }
     .carousel-arrow-left {
-        left: calc(50% - 220px);
+        left: calc(50% - 190px);
     }
     .carousel-arrow {
         top: 35%;
@@ -1267,7 +1337,7 @@ svg text {
 }
 
 .get-the-game-section {
-    background-image: url(/Assets/Pattern.png);
+    background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693595594/Lore/Pattern_wgdqho.png);
     background-size: 250px;
     text-align: center;
     position: relative;

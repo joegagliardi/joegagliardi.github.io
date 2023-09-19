@@ -46,13 +46,13 @@
     </div>
     <div class="homepage-wrapper">
         <div class="hero-parallax">
-            <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776390/Lore/Layer7_mirbeq.jpg" class="layer7" />
+            <!--<img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776390/Lore/Layer7_mirbeq.jpg" class="layer7" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776397/Lore/Layer6-min_nvgah8.png" class="layer6" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776397/Lore/Layer5-min_dkgsef.png" class="layer5" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776396/Lore/Layer4_ectehv.png" class="layer4" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776396/Lore/Layer3-min_krblgy.png" class="layer3" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776394/Lore/Layer2-min_nbgham.png" class="layer2" />
-            <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776393/Lore/Layer1-min_tygpwu.png" class="layer1" />
+            <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776393/Lore/Layer1-min_tygpwu.png" class="layer1" />-->
             <div class="hero-text">
                 <h2 class="fade-in-text">A BOARD GAME OF</h2>
                 <svg viewbox="0 0 1450 150">
@@ -88,7 +88,29 @@
                 <p>
                     With surprisingly mechanical gameplay, LORE blends elements of Action Selection, Card Play, Dice Rolling, and Character Building, Sprinkled with Seeds to Grow Your Own Story.
                 </p>
-                <button>HOW TO PLAY</button>
+                <button id="openPopup">HOW TO PLAY</button>
+                <div class="popup" id="popup">
+                    <div class="pattern-overlay">
+                        <button id="closePopup">X</button>
+                        <div class="popup-content">
+                            <div class="slideshow">
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Princess_cz3imc.jpg" alt="Image 1">
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Prince_ht4yom.jpg" alt="Image 2">
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Paladin_cu53e4.jpg" alt="Image 3">
+                            </div>
+                            <div class="description">
+                                <p>Description 1</p>
+                                <p>Description 2</p>
+                                <p>Description 3</p>
+                            </div>
+                            <div class="navigation">
+                                <button id="backButton">Back</button>
+                                <button id="continueButton">Continue</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="intro-image fade-in-image fade-from-right">
                 <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776391/Lore/hydra_ig4ykn.png" alt="Hydra" />
@@ -294,6 +316,7 @@
     <script src="carousel.js"></script>
     <script src="image-fade.js"></script>
     <script src="fade-in-text.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>
