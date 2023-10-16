@@ -390,7 +390,6 @@ h3 {
     stroke-dasharray: 601px;
     stroke-dashoffset: 601px;
     animation: line-anim 4s ease 1s forwards;
-    z-index: 10000;
 }
 
 #letter20 {
@@ -423,6 +422,25 @@ h3 {
     }
 }
 
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width:768px) {
+    #letter10 {
+        stroke-dasharray: 123vw;
+        stroke-dashoffset: 123vw;
+    }
+    #letter20 {
+        stroke-dasharray: 130vw;
+        stroke-dashoffset: 130vw;
+    }
+    #letter30 {
+        stroke-dasharray: 145vw;
+        stroke-dashoffset: 145vw;
+    }
+    #letter40 {
+        stroke-dasharray: 180vw;
+        stroke-dashoffset: 180vw;
+    }
+}
+
 @keyframes fade-up {
     0% {
         transform: translateY(0) scale(1);
@@ -433,6 +451,8 @@ h3 {
         opacity: 0;
     }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2) {}
 
 .layer1,
 .layer2,
