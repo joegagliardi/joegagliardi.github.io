@@ -8,6 +8,24 @@
 </head>
 
 <body>
+
+
+
+
+    <div class="dark-overlay">
+    </div>
+    <div class='etching-wrapper'>
+        <div class='etching'>
+            <svg viewbox="0 0 600 150">
+                    <text x="50%" y="90%" fill="transparent" text-anchor="middle" id="myth-text">
+                      <tspan id="letter10" dx="0" dy="0">L</span>
+                      <tspan id="letter20" dx="-15" dy="0">O</span>
+                      <tspan id="letter30" dx="-15" dy="0">R</span>
+                      <tspan id="letter40" dx="-15" dy="0">E</span>
+                    </text>
+            </svg>
+        </div>
+    </div>
     <!--<button id="menu-button">Open Menu</button>-->
     <!--<button id="close-button">Close Menu</button>-->
     <div class="hamburger" id="menu-button">
@@ -45,13 +63,137 @@
         </header>
     </div>
     <div class="homepage-wrapper">
+
+
+
         <div class="hero-parallax">
+            <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+            <div id="particle-container"></div>
+
+            <script>
+                particlesJS("particle-container", {
+                    particles: {
+                        number: {
+                            value: 150,
+                            density: {
+                                enable: true,
+                                value_area: 800,
+                            },
+                        },
+                        color: {
+                            value: "#ffffff",
+                        },
+                        shape: {
+                            type: "circle",
+                            stroke: {
+                                width: 0,
+                                color: "#000000",
+                            },
+                            polygon: {
+                                nb_sides: 5,
+                            },
+                            image: {
+                                src: "img/github.svg",
+                                width: 100,
+                                height: 100,
+                            },
+                        },
+                        opacity: {
+                            value: 0.7,
+                            random: false,
+                            anim: {
+                                enable: false,
+                                speed: 1,
+                                opacity_min: 0.1,
+                                sync: false,
+                            },
+                        },
+                        size: {
+                            value: 3,
+                            random: true,
+                            anim: {
+                                enable: false,
+                                speed: 1,
+                                size_min: 0.1,
+                                sync: false,
+                            },
+                        },
+                        line_linked: {
+                            enable: false,
+                            distance: 150,
+                            color: "#ffffff",
+                            opacity: 0.4,
+                            width: 1,
+                        },
+                        move: {
+                            enable: true,
+                            speed: 1,
+                            direction: "none",
+                            random: false,
+                            straight: false,
+                            out_mode: "out",
+                            bounce: false,
+                            attract: {
+                                enable: false,
+                                rotateX: 600,
+                                rotateY: 1200,
+                            },
+                            reduce: false
+                        },
+                    },
+                    interactivity: {
+                        detect_on: "canvas",
+                        events: {
+                            onhover: {
+                                enable: true,
+                                mode: "bubble",
+                            },
+                            onclick: {
+                                enable: true,
+                                mode: "push",
+                            },
+                            resize: true,
+                        },
+                        modes: {
+                            grab: {
+                                distance: 140,
+                                line_linked: {
+                                    opacity: 0,
+                                },
+                                slow: false
+                            },
+                            bubble: {
+                                distance: 100,
+                                size: 4,
+                                duration: 2,
+                                opacity: .8,
+                                speed: 1,
+                            },
+                            repulse: {
+                                distance: 75,
+                                duration: 0.4,
+                                speed: 1,
+                                factor: 50
+                            },
+                            push: {
+                                particles_nb: 4,
+                            },
+                            remove: {
+                                particles_nb: 2,
+                            },
+                        },
+                    },
+                    retina_detect: true,
+                });
+            </script>
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1695787220/chartingtheunmarkedroad_revised1_tm2ak8.jpg" class="layer7" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1695788639/LoreBannerLayer2_rf8hwt.png" class="layer4" />
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1695788639/LoreLayer1_wbqszn.png" class="layer1" />
+
             <div class="hero-text">
+
                 <h2 class="fade-in-text">A BOARD GAME OF</h2>
-                <svg viewbox="0 0 1450 150">
+                <!--<svg viewbox="0 0 1450 150">
             <text x="50%" y="70%" fill="transparent" text-anchor="middle" id="myth-text">
               <tspan id="letter1" dx="0" dy="0">M</span>
               <tspan id="letter2" dx="-15" dy="0">Y</span>
@@ -64,9 +206,10 @@
               <tspan id="letter9" dx="-15" dy="0">N</span>
               <tspan id="letter10" dx="-15" dy="0">G</span>
             </text>
-          </svg>
+          </svg>-->
                 <!--<h1>MYTH MAKING</h1>-->
-                <h2 class="fade-in-text-delay">ADVENTURE</h2>
+                <h2 class="fade-in-text-delay" id="mythmaking-special">MYTH MAKING</h2>
+                <h2 class="fade-in-text-delay-2">ADVENTURE</h2>
             </div>
             <div class="hero-footer">
                 <a href="#"><img src="/Assets/kickstarter.png" alt="Kickstarter" /></a>
