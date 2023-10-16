@@ -424,20 +424,20 @@ h3 {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (max-width:768px) {
     #letter10 {
-        stroke-dasharray: 123vw;
-        stroke-dashoffset: 123vw;
+        stroke-dasharray: 1601px;
+        stroke-dashoffset: 1601px;
     }
     #letter20 {
-        stroke-dasharray: 130vw;
-        stroke-dashoffset: 130vw;
+        stroke-dasharray: 1392px;
+        stroke-dashoffset: 1392px;
     }
     #letter30 {
-        stroke-dasharray: 145vw;
-        stroke-dashoffset: 145vw;
+        stroke-dasharray: 1570px;
+        stroke-dashoffset: 1570px;
     }
     #letter40 {
-        stroke-dasharray: 180vw;
-        stroke-dashoffset: 180vw;
+        stroke-dasharray: 1700px;
+        stroke-dashoffset: 1700px;
     }
 }
 
