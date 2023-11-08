@@ -11,12 +11,10 @@ menuButton.addEventListener("click", () => {
 
 headerMenuButton.addEventListener("click", () => {
     menu.classList.toggle("show");
-    headerMenuButton.classList.toggle("active");
 });
 
-headerMenuButton.addEventListener("click", () => {
+closeMenuButton.addEventListener("click", () => {
     menu.classList.toggle("show");
-    headerMenuButton.classList.toggle("active");
 });
 
 /*
