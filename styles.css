@@ -232,7 +232,7 @@
     }
     
     .input-border {
-        width: 80%;
+        width: 152px;
         min-height: 38px;
         border: 2px solid black;
         margin: 4px;
@@ -1454,6 +1454,7 @@
     .get-the-game-section-input-border {
         width: 300px;
         border: 2px solid black;
+        margin: 5px 0px;
     }
     
     @media (max-width:768px) {
