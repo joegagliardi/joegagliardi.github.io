@@ -287,7 +287,7 @@
         color: var(--green);
     }
     
-    .close-button {
+    #close-button {
         font-size: var(--font-phone-medium);
         font-family: 'Texturina', 'Courier New', Courier, monospace;
         color: white;
@@ -304,7 +304,7 @@
         cursor: pointer;
     }
     
-    .submit-button:hover {
+    #close-button:hover {
         background-color: white;
         color: var(--green);
     }
