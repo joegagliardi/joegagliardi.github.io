@@ -8,11 +8,7 @@
 </head>
 
 <body>
-
-
-
-
-    <div class="dark-overlay">
+    <!--<div class="dark-overlay">
     </div>
     <div class='etching-wrapper'>
         <div class='etching'>
@@ -25,7 +21,7 @@
                     </text>
             </svg>
         </div>
-    </div>
+    </div>-->
     <!--<button id="menu-button">Open Menu</button>-->
     <!--<button id="close-button">Close Menu</button>-->
     <div class="hamburger" id="menu-button">
@@ -44,16 +40,30 @@
                     <img src="/Assets/ig-icon.png" alt="campfire-social-ig" class="menu-ig-icon" />
                     <img src="/Assets/Logo.png" alt="Logo2" class="menu-cf-logo" />
                 </div>
-                <label for="email">Connect</label>
-                <div class="input-border">
-                    <input type="text" id="email" name="email" placeholder="   Enter your email (optional)" />
-                </div>
-                <div class="input-border">
-                    <input type="text" id="phone" name="phone" placeholder="   Enter your phone (optional)" />
-                </div>
-                <button class="submit-button">
-            <p>Submit</p>
-          </button>
+                <!--<form onsubmit="sendEmail(); reset(); return false">
+                    <label for="email">Connect</label>
+                    <div class="input-border">
+                        <input type="email" id="email" name="email" placeholder="   Enter your email (optional)" />
+                    </div>
+                    <div class="input-border">
+                        <input type="phone" id="phone" name="phone" placeholder="   Enter your phone (optional)" />
+                    </div>
+                    <button class="submit-button" id="submit-button" type="submit"></button>
+                </form>-->
+                <form action="https://formsubmit.co/loretheboardgame@gmail.com" method="POST">
+                    <label for="email">Connect</label>
+                    <div class="input-border">
+                        <input type="email" id="email" name="email" placeholder="   Enter your email (optional)" />
+                    </div>
+                    <div class="input-border">
+                        <input type="phone" id="phone" name="phone" placeholder="   Enter your phone (optional)" />
+                    </div>
+                    <button class="submit-button" id="submit-button" type="submit">
+              <div id="response"></div>
+              <p>Submit</p>
+            </button>
+                </form>
+
                 <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776396/Lore/Title_ningf4.png" alt="Lore Main Image" class="menu-logo" />
             </div>
             <div class="header-right">
@@ -63,9 +73,6 @@
         </header>
     </div>
     <div class="homepage-wrapper">
-
-
-
         <div class="hero-parallax">
             <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
             <div id="particle-container"></div>
@@ -138,7 +145,7 @@
                                 rotateX: 600,
                                 rotateY: 1200,
                             },
-                            reduce: false
+                            reduce: false,
                         },
                     },
                     interactivity: {
@@ -160,20 +167,20 @@
                                 line_linked: {
                                     opacity: 0,
                                 },
-                                slow: false
+                                slow: false,
                             },
                             bubble: {
                                 distance: 100,
                                 size: 4,
                                 duration: 2,
-                                opacity: .8,
+                                opacity: 0.8,
                                 speed: 1,
                             },
                             repulse: {
                                 distance: 75,
                                 duration: 0.4,
                                 speed: 1,
-                                factor: 50
+                                factor: 50,
                             },
                             push: {
                                 particles_nb: 4,
@@ -191,7 +198,6 @@
             <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1695788639/LoreLayer1_wbqszn.png" class="layer1" />
 
             <div class="hero-text">
-
                 <h2 class="fade-in-text">A BOARD GAME OF</h2>
                 <!--<svg viewbox="0 0 1450 150">
             <text x="50%" y="70%" fill="transparent" text-anchor="middle" id="myth-text">
@@ -208,7 +214,9 @@
             </text>
           </svg>-->
                 <!--<h1>MYTH MAKING</h1>-->
-                <h2 class="fade-in-text-delay" id="mythmaking-special">MYTH MAKING</h2>
+                <h2 class="fade-in-text-delay" id="mythmaking-special">
+                    MYTH MAKING
+                </h2>
                 <h2 class="fade-in-text-delay-2">ADVENTURE</h2>
             </div>
             <div class="hero-footer">
@@ -233,9 +241,9 @@
                         <button id="closePopup">X</button>
                         <div class="popup-content">
                             <div class="slideshow">
-                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Princess_cz3imc.jpg" alt="Image 1">
-                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Prince_ht4yom.jpg" alt="Image 2">
-                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Paladin_cu53e4.jpg" alt="Image 3">
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Princess_cz3imc.jpg" alt="Image 1" />
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Prince_ht4yom.jpg" alt="Image 2" />
+                                <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776395/Lore/Paladin_cu53e4.jpg" alt="Image 3" />
                             </div>
                             <div class="description">
                                 <p>Description 1</p>
@@ -246,7 +254,6 @@
                                 <button id="backButton">Back</button>
                                 <button id="continueButton">Continue</button>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -282,8 +289,12 @@
                 <img src="/Assets/Leaf.png" />
             </div>
             <div class="carousel">
-                <div class="carousel-arrow carousel-arrow-left"><img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358618/Lore/icons8-chevron-100_jhsc10.png"></div>
-                <div class="carousel-arrow carousel-arrow-right"><img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358618/Lore/icons8-chevron-100_jhsc10.png"></div>
+                <div class="carousel-arrow carousel-arrow-left">
+                    <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358618/Lore/icons8-chevron-100_jhsc10.png" />
+                </div>
+                <div class="carousel-arrow carousel-arrow-right">
+                    <img src="https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358618/Lore/icons8-chevron-100_jhsc10.png" />
+                </div>
                 <div class="carousel-item">
                     <div class="carousel-box leftmost-carousel-box">
                         <div class="title">Wizard</div>
@@ -297,7 +308,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Bandit</div>
                         <div class="num">02</div>
@@ -310,7 +323,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Rogue</div>
                         <div class="num">03</div>
@@ -318,13 +333,14 @@
                     </div>
                 </div>
 
-
                 <div class="carousel-item">
                     <div class="carousel-box">
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Enchantress</div>
                         <div class="num">04</div>
@@ -337,7 +353,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Paladin</div>
                         <div class="num">05</div>
@@ -350,7 +368,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Prince</div>
                         <div class="num">06</div>
@@ -363,7 +383,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Princess</div>
                         <div class="num">07</div>
@@ -376,7 +398,9 @@
                         <div class="box-overlay"></div>
                         <div class="box-content">
                             <h2>Story Catcher</h2>
-                            <p>A child without a home, finding a home in nature. She's searching to bring balance to the natural world.</p>
+                            <p>
+                                A child without a home, finding a home in nature. She's searching to bring balance to the natural world.
+                            </p>
                         </div>
                         <div class="title">Knight</div>
                         <div class="num">08</div>
@@ -456,6 +480,24 @@
     <script src="image-fade.js"></script>
     <script src="fade-in-text.js"></script>
     <script src="popup.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "loretheboardgame@gmail.com",
+                Password: "MythMaking",
+                To: "loretheboardgame@gmail.com",
+                From: document.getElementById("email").value,
+                Subject: "Lore Inquiry",
+                Body: "A new user has submit a Lore request via the website." +
+                    "<br> Email: " +
+                    document.getElementById("email").value +
+                    "<br> Phone No: " +
+                    document.getElementById("phone").value,
+            }).then((message) => alert("You've been added to our list!"));
+        }
+    </script>
 </body>
 
 </html>
