@@ -5,7 +5,7 @@
         padding: 0;
     }
     
-    :root {
+     :root {
         --background: #FAF1E0;
         --borders: #CBCBBD;
         --purple: #543857;
@@ -101,11 +101,11 @@
     .connect-btn {
         background-color: var(--red);
         color: white;
-        padding: 10px 20px;
+        padding: 0px 20px 5px;
         border: 2px solid #CBCBBD;
-        font-size: 24px;
+        font-size: 18px;
         transition: .35s ease;
-        font-family: 'UnifrakturCook', Arial, Helvetica, sans-serif;
+        font-family: 'Texturina', Arial, Helvetica, sans-serif;
         z-index: 1;
     }
     
