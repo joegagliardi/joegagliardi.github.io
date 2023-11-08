@@ -287,6 +287,28 @@
         color: var(--green);
     }
     
+    .close-button {
+        font-size: var(--font-phone-medium);
+        font-family: 'Texturina', 'Courier New', Courier, monospace;
+        color: white;
+        background-color: var(--green);
+        width: 100px;
+        height: 30px;
+        margin: 2px auto;
+        padding-bottom: 5px;
+        text-align: center;
+        border: 2px solid var(--borders);
+        transition: .35s;
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+    }
+    
+    .submit-button:hover {
+        background-color: white;
+        color: var(--green);
+    }
+    
     .header-menu::after {
         content: '';
         background: url("Assets/menu-bottom.png");
