@@ -442,20 +442,20 @@
     
     @media (-webkit-min-device-pixel-ratio: 2) and (max-width:768px) {
         #letter10 {
-            stroke-dasharray: 1601px;
-            stroke-dashoffset: 1601px;
+            stroke-dasharray: 701px;
+            stroke-dashoffset: 701px;
         }
         #letter20 {
-            stroke-dasharray: 1392px;
-            stroke-dashoffset: 1392px;
+            stroke-dasharray: 492px;
+            stroke-dashoffset: 492px;
         }
         #letter30 {
-            stroke-dasharray: 1570px;
-            stroke-dashoffset: 1570px;
+            stroke-dasharray: 670px;
+            stroke-dashoffset: 670px;
         }
         #letter40 {
-            stroke-dasharray: 1700px;
-            stroke-dashoffset: 1700px;
+            stroke-dasharray: 800px;
+            stroke-dashoffset: 800px;
         }
     }
     
