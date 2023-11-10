@@ -687,14 +687,29 @@
         left: 15%;
         width: 70vw;
         background-color: #FAF1E0;
-        z-index: 1000;
+        z-index: 999;
         overflow: hidden;
         border: 1px solid #ccc;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
     }
     
+    .popup-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black background */
+        z-index: 998;
+        /* Place the overlay behind the popup but above other elements */
+    }
+    
     .pattern-overlay {
+        position: relative;
+        z-index: 999;
         width: 100%;
         height: 100%;
         background: url('https://res.cloudinary.com/dgj8jpwa0/image/upload/v1693358627/Lore/arches_pcxcu3.png');
@@ -719,12 +734,20 @@
     }
     
     .popup .navigation button {
-        background-color: #007bff;
+        background-color: var(--red);
+        font-family: 'Texturina', serif;
         color: white;
-        padding: 10px 20px;
+        padding: 7px 20px 10px;
         border: none;
         cursor: pointer;
         margin: 0 10px;
+        transition: .35s;
+        border: 2px solid var(--borders);
+    }
+    
+    .popup .navigation button:hover {
+        background-color: white;
+        color: var(--red)
     }
     
     #closePopup {
@@ -736,6 +759,7 @@
         font-size: 24px;
         cursor: pointer;
         color: #333;
+        z-index: 1000;
     }
     
     .description {

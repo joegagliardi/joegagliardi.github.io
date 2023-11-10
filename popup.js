@@ -1,6 +1,7 @@
 const openPopupButton = document.getElementById("openPopup");
 const closePopupButton = document.getElementById("closePopup");
 const popup = document.getElementById("popup");
+const popupOverlay = document.getElementById("popupOverlay");
 const images = document.querySelectorAll(".popup img");
 const backButton = document.getElementById("backButton");
 const continueButton = document.getElementById("continueButton");
@@ -9,6 +10,7 @@ let currentIndex = 0;
 
 openPopupButton.addEventListener("click", () => {
     popup.style.display = "block";
+    popupOverlay.style.display = "block"; // Show the overlay when the popup is opened
     showImage(currentIndex);
 });
 
@@ -16,12 +18,14 @@ closePopupButton.addEventListener("click", () => {
     closePopup();
 });
 
-// Close the popup when clicking outside of it
-popup.addEventListener("click", (event) => {
-    if (event.target === popup) {
-        closePopup();
-    }
-});
+// // Close the popup when clicking outside of it
+// popup.addEventListener("click", (event) => {
+//     if (event.target === popup) {
+//         closePopup();
+//     }
+// });
+
+popupOverlay.addEventListener("click", closePopup);
 
 // Close the popup when pressing the "Escape" key
 document.addEventListener("keydown", (event) => {
@@ -55,6 +59,7 @@ function showImage(index) {
 function closePopup() {
     console.log("Closing popup");
     popup.style.display = "none";
+    popupOverlay.style.display = "none";
     currentIndex = 0;
     images.forEach((img, i) => {
         img.style.display = "none";
