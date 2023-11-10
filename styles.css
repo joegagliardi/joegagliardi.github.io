@@ -722,12 +722,13 @@
     
     .popup img {
         display: none;
-        max-width: 100%;
+        width: 100%;
         max-height: 65vh;
         height: auto;
         margin: 0 auto;
         border-radius: 5px;
         border: 2px solid #cbcbbe;
+        object-fit: cover;
     }
     
     .popup .navigation {
@@ -768,6 +769,7 @@
     .description {
         text-align: center;
         margin-top: 10px;
+        height: 20vh;
     }
     
     .description p {
