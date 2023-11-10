@@ -423,8 +423,8 @@
     }
     
     #letter40 {
-        stroke-dasharray: 700px;
-        stroke-dashoffset: 700px;
+        stroke-dasharray: 750px;
+        stroke-dashoffset: 750px;
         animation: line-anim 4s ease 1.75s forwards;
     }
     
@@ -770,7 +770,13 @@
     }
     
     .description p {
-        margin: 5px 0;
+        margin: 5px auto;
+        max-width: 650px;
+        background: rgb(0 0 0 / 62%);
+        border-radius: 5px;
+        border: #cbcbbe solid 2px;
+        color: white;
+        padding: 14px;
     }
     
     @media (max-width: 768px) {
