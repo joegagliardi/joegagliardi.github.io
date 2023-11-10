@@ -683,7 +683,7 @@
     .popup {
         display: none;
         position: absolute;
-        top: 15%;
+        top: 5%;
         left: 15%;
         width: 70vw;
         background-color: #FAF1E0;
@@ -771,6 +771,14 @@
     
     .description p {
         margin: 5px 0;
+    }
+    
+    @media (max-width: 768px) {
+        .popup {
+            width: 95vw;
+            left: 2.5%;
+            top: 2.5%;
+        }
     }
     
     @media (max-width: 768px) {
