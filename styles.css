@@ -729,6 +729,7 @@
         border-radius: 5px;
         border: 2px solid #cbcbbe;
         object-fit: cover;
+        object-position: top;
     }
     
     .popup .navigation {
