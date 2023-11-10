@@ -717,7 +717,7 @@
     
     .popup-content {
         position: relative;
-        padding: 20px;
+        padding-bottom: 20px;
     }
     
     .popup img {
@@ -769,7 +769,7 @@
     .description {
         text-align: center;
         margin-top: 10px;
-        height: 20vh;
+        height: 18vh;
     }
     
     .description p {
