@@ -440,25 +440,6 @@
         }
     }
     
-    @media (-webkit-min-device-pixel-ratio: 2) and (max-width:768px) {
-        #letter10 {
-            stroke-dasharray: 701px;
-            stroke-dashoffset: 701px;
-        }
-        #letter20 {
-            stroke-dasharray: 492px;
-            stroke-dashoffset: 492px;
-        }
-        #letter30 {
-            stroke-dasharray: 670px;
-            stroke-dashoffset: 670px;
-        }
-        #letter40 {
-            stroke-dasharray: 800px;
-            stroke-dashoffset: 800px;
-        }
-    }
-    
     @keyframes fade-up {
         0% {
             transform: translateY(0) scale(1);
