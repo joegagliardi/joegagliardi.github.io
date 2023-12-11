@@ -380,7 +380,7 @@
         bottom: 48%;
         margin: auto;
         z-index: 10000;
-        animation: display-none 1s forwards 8s;
+        animation: display-none 1s forwards 6s;
     }
     
     @keyframes display-none {
@@ -400,31 +400,31 @@
         font-size: 10rem;
         font-weight: 700;
         stroke-width: 1;
-        animation: fill-letters 2s ease forwards 4s;
+        animation: fill-letters 2s ease forwards 3s;
         z-index: 10000;
     }
     
     #letter10 {
-        stroke-dasharray: 601px;
-        stroke-dashoffset: 601px;
+        stroke-dasharray: 701px;
+        stroke-dashoffset: 701px;
         animation: line-anim 3s ease 1s forwards;
     }
     
     #letter20 {
-        stroke-dasharray: 392px;
-        stroke-dashoffset: 392px;
+        stroke-dasharray: 592px;
+        stroke-dashoffset: 592px;
         animation: line-anim 3s ease 1.25s forwards;
     }
     
     #letter30 {
-        stroke-dasharray: 570px;
-        stroke-dashoffset: 570px;
+        stroke-dasharray: 770px;
+        stroke-dashoffset: 770px;
         animation: line-anim 3s ease 1.5s forwards;
     }
     
     #letter40 {
-        stroke-dasharray: 750px;
-        stroke-dashoffset: 750px;
+        stroke-dasharray: 940px;
+        stroke-dashoffset: 940px;
         animation: line-anim 3s ease 1.75s forwards;
     }
     
