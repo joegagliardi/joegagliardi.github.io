@@ -405,26 +405,26 @@
     }
     
     #letter10 {
-        stroke-dasharray: 1201px;
-        stroke-dashoffset: 1201px;
+        stroke-dasharray: 701px;
+        stroke-dashoffset: 701px;
         animation: line-anim 3s ease 1s forwards;
     }
     
     #letter20 {
-        stroke-dasharray: 1092px;
-        stroke-dashoffset: 1092px;
+        stroke-dasharray: 592px;
+        stroke-dashoffset: 592px;
         animation: line-anim 3s ease 1.25s forwards;
     }
     
     #letter30 {
-        stroke-dasharray: 1270px;
-        stroke-dashoffset: 1270px;
+        stroke-dasharray: 770px;
+        stroke-dashoffset: 770px;
         animation: line-anim 3s ease 1.5s forwards;
     }
     
     #letter40 {
-        stroke-dasharray: 1440px;
-        stroke-dashoffset: 1440px;
+        stroke-dasharray: 940px;
+        stroke-dashoffset: 940px;
         animation: line-anim 3s ease 1.75s forwards;
     }
     
@@ -468,7 +468,7 @@
     }
     
     .layer7 {
-        transform: translateZ(-30px) scale(400%);
+        transform: translateZ(-50px) scale(600%);
     }
     
     .layer6 {
