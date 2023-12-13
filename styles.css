@@ -451,7 +451,27 @@
         }
     }
     
-    @media (-webkit-min-device-pixel-ratio: 2) {}
+    @media (max-width: 768px) {
+        #letter10 {
+            stroke-dasharray: 1201px;
+            stroke-dashoffset: 1201px;
+        }
+        #letter20 {
+            stroke-dasharray: 1092px;
+            stroke-dashoffset: 1092px;
+            animation: line-anim 3s ease 1.25s forwards;
+        }
+        #letter30 {
+            stroke-dasharray: 1270px;
+            stroke-dashoffset: 1270px;
+            animation: line-anim 3s ease 1.5s forwards;
+        }
+        #letter40 {
+            stroke-dasharray: 1440px;
+            stroke-dashoffset: 1440px;
+            animation: line-anim 3s ease 1.75s forwards;
+        }
+    }
     
     .layer1,
     .layer2,
