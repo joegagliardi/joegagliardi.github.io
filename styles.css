@@ -1558,6 +1558,9 @@
             font-size: 1.25rem;
             margin-bottom: -23 px;
         }
+        .ml-embedded {
+            padding: 0px 20px;
+        }
     }
     
     @media (max-width:375px) {
