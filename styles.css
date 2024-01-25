@@ -1500,10 +1500,13 @@
         justify-content: center;
     }
     
-    .get-the-game-section img {
-        width: 50%;
+    .get-the-game-section h3 {
         margin-top: 50px;
-        border: #cbcbbd 2px solid;
+    }
+    
+    .get-the-game-section img {
+        width: 65%;
+        margin-top: 10px;
     }
     
     .get-the-game-section p {
@@ -1536,6 +1539,10 @@
         margin: 5px 0px;
     }
     
+    .get-the-game-section .ml-embedded {
+        margin-bottom: 50px !important;
+    }
+    
     @media (max-width:768px) {
         .get-the-game-section h3 {
             font-size: 2rem;
@@ -1543,6 +1550,7 @@
         }
         .get-the-game-section p {
             font-size: 1.25rem;
+            margin-bottom: -23 px;
         }
     }
     
