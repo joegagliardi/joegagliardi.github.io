@@ -1431,7 +1431,7 @@
     .testimonial-section {
         height: 85vh;
         position: relative;
-        background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1683776394/Lore/Landscape2_yikjes.png);
+        background-image: url(https://res.cloudinary.com/dgj8jpwa0/image/upload/v1709140057/waterfallcanyon_bkxl8x.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -1549,6 +1549,30 @@
         margin-bottom: 50px !important;
     }
     
+    .get-the-game-section h4 {
+        font-size: 1.4rem;
+    }
+    
+    .purchase-email-button {
+        margin: 30px;
+    }
+    
+    .purchase-email-button a {
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 10px;
+        padding: 10px 36px 14px;
+        color: white;
+        background-color: #C75935;
+        border: 2px solid var(--borders);
+        transition: .35s;
+    }
+    
+    .purchase-email-button a:hover {
+        background-color: white;
+        color: var(--red)
+    }
+    
     @media (max-width:768px) {
         .get-the-game-section h3 {
             font-size: 2rem;
@@ -1561,6 +1585,11 @@
         .ml-embedded {
             padding: 0px 20px;
         }
+    }
+    
+    .instagram-plug {
+        margin-bottom: 50px;
+        font-weight: 300;
     }
     
     @media (max-width:375px) {
@@ -1607,9 +1636,13 @@
     
     .about-us-section p {
         font-size: 1.5rem;
-        font-family: 'Antic', 'Courier New', Courier, monospace;
+        font-family: 'Texturina', 'Courier New', Courier, monospace;
         z-index: 1;
         width: 50%;
+    }
+    
+    .about-us-form {
+        z-index: 1;
     }
     
     .about-us-section img {
