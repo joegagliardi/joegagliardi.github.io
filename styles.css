@@ -107,6 +107,8 @@
         transition: .35s ease;
         font-family: 'Texturina', Arial, Helvetica, sans-serif;
         z-index: 1;
+        text-decoration: none;
+        margin: 0px 5px;
     }
     
     .connect-btn:hover {
