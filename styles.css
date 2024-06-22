@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Antic&family=Texturina:ital,wght@0,100;0,400;0,700;1,100;1,400;1,900&family=Unica+One&family=UnifrakturCook:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Antic&family=Texturina:ital,wght@0,100;0,400;0,700;1,100;1,400;1,900&family=Unica+One&family=UnifrakturCook:wght@700&display=swap&family=Mate:ital@0;1&display=swap');
     * {
         box-sizing: border-box;
         margin: 0;
@@ -247,7 +247,7 @@
         border-radius: 0;
         width: calc(100% - 4px);
         height: 30px;
-        font-family: 'Antic', Arial, Helvetica, sans-serif;
+        font-family: 'Mate', Arial, Helvetica, sans-serif;
     }
     
     #particle-container {
@@ -660,7 +660,7 @@
     
     .intro-text p {
         font-size: 2rem;
-        font-family: 'Antic', 'Courier New', Courier, monospace;
+        font-family: 'Mate', 'Courier New', Courier, monospace;
         margin: 20px;
         width: 70%;
     }
@@ -785,6 +785,7 @@
     }
     
     .description p {
+        font-family: 'Mate', 'Times New Roman', Times, serif;
         margin: 5px auto;
         max-width: 650px;
         background: rgb(0 0 0 / 62%);
@@ -1529,7 +1530,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Antic', 'Times New Roman', Times, serif;
+        font-family: 'Mate', 'Times New Roman', Times, serif;
         font-size: 1rem;
         line-height: 2rem;
         text-align: center;
