@@ -98,7 +98,7 @@
         align-items: center;
     }
     
-    .connect-btn {
+    .connect-btn a {
         background-color: var(--red);
         color: white;
         padding: 0px 20px 5px;
@@ -111,7 +111,7 @@
         margin: 0px 5px;
     }
     
-    .connect-btn:hover {
+    .connect-btn a:hover {
         background-color: #fff;
         color: var(--green);
         cursor: pointer;
