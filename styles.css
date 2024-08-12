@@ -690,7 +690,6 @@
     /* ... Existing CSS ... */
     
     .popup {
-        display: none;
         position: absolute;
         top: 5%;
         left: 15%;
@@ -701,19 +700,29 @@
         border: 1px solid #ccc;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
     }
     
     .popup-overlay {
-        display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
-        /* Semi-transparent black background */
         z-index: 998;
-        /* Place the overlay behind the popup but above other elements */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    /* Visible state */
+    
+    .popup.show,
+    .popup-overlay.show {
+        opacity: 1;
+        visibility: visible;
     }
     
     .pattern-overlay {
